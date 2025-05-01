@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1 class="page-title">{% block title %}Leave a Joke{% endblock %}</h1>
+
+  <form method="post">
+    <label for="title">Title</label>
+    <input name="title" id="title" value="{{ request.form['title'] }}" required />
+    <label for="body">Body</label>
+    <textarea name="body" id="body" rows="4">{{ request.form['body'] }}</textarea>
+    <input class="form-button" type="submit" value="Save" />
+  </form>
+{% endblock %}

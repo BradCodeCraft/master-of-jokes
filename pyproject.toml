@@ -1,0 +1,28 @@
+[project]
+name = "moj"
+version = "1.0.0"
+description = "Master of Joke"
+authors = [
+  { name = "Aryan Mayur Dhuru", email = "adhuru@iu.edu" },
+  { name = "Briana Flores", email = "briflore@iu.edu" },
+  { name = "Aubrey Highberger", email = "aubhighb@iu.edu" },
+  { name = "Brad Nguyen", email = "brnguye@iu.edu" },
+  { name = "Nikhil Patel", email = "ndp@iu.edu" },
+]
+dependencies = ["flask"]
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.docker]
+base_image = "ubuntu:latest"
+dependencies = ["python3", "pyhon3-pip"]
+app_dir = "/master-of-jokes"
+copy_files = [
+  { source = "./dist/moj-1.0.0-py2.py3-none-any.whl", destination = "/master-of-jokes" },
+]
+run_commands = [
+  "pip install --no-cache-dir --break-system-packages ./moj-1.0.0-py2.py3-none-any.whl",
+]
+command = "flask --app moj init-db && flask --app moj run --host=0.0.0.0"

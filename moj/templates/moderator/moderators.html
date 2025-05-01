@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <h1>Moderators</h1>
+
+  {% for moderator in moderators %}
+    <article class="user">
+      <header>
+        <div>
+          <h1>{{ moderator["nickname"] }}</h1>
+        </div>
+
+        {% if can_remove_moderators(moderators) %}
+          <div class="moderator-user-page-action-container">
+            <form action="{{ url_for('moderator.remove_moderator', id=moderator['id']) }}" method="post">
+              <button
+                type="submit"
+                onclick="return confirm('Are you sure?');"
+              >
+                <a class="action">
+                  Remove Moderator
+                </a>
+              </button>
+            </form>
+          </div>
+        {% endif %}
+      </header>
+    </article>
+    {% if not loop.last %}
+    <br />
+    {% endif %} 
+  {% endfor %} 
+
+{% endblock %}

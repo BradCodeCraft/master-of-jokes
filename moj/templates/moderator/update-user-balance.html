@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <form method="post">
+    <h2>Update User Balance</h2>
+
+    <label for="user_nickname">Nickname</label>
+    <input 
+      type="text" 
+      name="user_nickname" 
+      value="{{ user["nickname"] }}"
+      disabled
+    />
+
+    <label for="user_email">Email</label>
+    <input 
+      type="text"
+      name="user_email"
+      value="{{ user["email"] }}"
+      disabled
+    />
+
+    <label for="user_balance">Balance</label>
+    <input type="number" name="user_balance" value="{{ user["balance"] }}">
+    <input class="form-button" type="submit" value="Save" />
+  </form>
+
+{% endblock %}

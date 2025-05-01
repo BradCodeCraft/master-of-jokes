@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <form method="post">
+    <label for="title">Title</label>
+    <input
+      name="title"
+      id="title"
+      value="{{ joke['title'] }}"
+      disabled
+    />
+    <label for="body">Body</label>
+    <textarea name="body" id="body" rows="4">{{ request.form['body'] or joke['body'] }}</textarea>
+    <input class="form-button" type="submit" value="Save" />
+  </form>
+  <form action="{{ url_for('blog.delete', id=joke['id']) }}" method="post">
+    <input
+      class="danger form-button"
+      type="submit"
+      value="Delete"
+      onclick="return confirm('Are you sure?');"
+    />
+  </form>
+{% endblock %}

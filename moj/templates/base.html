@@ -1,0 +1,31 @@
+<!doctype html>
+<title>{%block title %}{% endblock %} - Master of Jokes</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+
+<nav class="navbar">
+  <h1>Master of Jokes</h1>
+  <ul>
+    {% if g.user %}
+      {% if g.user["role"] == "user" %}
+        <li><a class="navbar-link" href="{{url_for('blog.personal')}}">My Jokes</a>
+        <li><a class="navbar-link" href="{{url_for('blog.community')}}">Joke List</a>
+      {% else %}
+        <li><a class="navbar-link" href="{{url_for('moderator.get_users')}}">Users</a>
+        <li><a class="navbar-link" href="{{url_for('moderator.get_moderators')}}">Moderators</a>
+        <li><a class="navbar-link" href="{{url_for('moderator.jokes')}}">Jokes</a>
+      {% endif %}
+
+      <li><a class="navbar-link" href="{{ url_for('auth.logout') }}">Log Out</a>
+    {% else %}
+      <li><a class="navbar-link" href="{{ url_for('auth.register') }}">Register</a>
+      <li><a class="navbar-link" href="{{ url_for('auth.login') }}">Log In</a>
+    {% endif %}
+  </ul>
+</nav>
+
+<section class="content">
+  {% for message in get_flashed_messages() %}
+    <div class="flash">{{ message }}</div>
+  {% endfor %}
+  {% block content %}{% endblock %}
+</section>

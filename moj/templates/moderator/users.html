@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <h1>Users</h1>
+
+  {% for user in users %}
+    <article class="user">
+      <header>
+        <div>
+          <a class="action" href="{{ url_for('moderator.update_user_balance', id=user['id']) }}">
+            <h1>{{ user["nickname"] }}</h1>
+          </a>
+        </div>
+
+        <div class="moderator-user-page-action-container">
+          <form action="{{ url_for('moderator.make_moderator', id=user['id']) }}" method="post">
+            <button
+              type="submit"
+              onclick="return confirm('Are you sure?');"
+            >
+              <a class="action">
+                Make Moderator
+              </a>
+            </button>
+          </form>
+        </div>
+
+      </header>
+      <p class="body">Balance: {{ user["balance"] }}</p>
+    </article>
+    {% if not loop.last %}
+    <hr />
+    {% endif %} 
+  {% endfor %} 
+
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %} 
+  <div class="page-header-container">
+    <h1 class="page-title">
+      Jokes
+    </h1>
+  </div>
+
+  {% for joke in jokes %}
+    <article class="joke">
+      <header>
+        <div>
+          <h1>{{ joke['title'] }}</h1>
+          <div class="about">
+            by {{ joke['nickname'] }} on {{ joke['created'].strftime('%Y-%m-%d') }}
+            with a rating of {{ get_joke_rating(joke["id"]) }}
+          </div>
+        </div>
+
+        <div class="community-page-action-container">
+          <a class="action" href="{{ url_for('moderator.update_joke', id=joke['id']) }}"
+            >Edit</a
+          >
+          <form action="{{ url_for('moderator.delete_joke', id=joke['id']) }}" method="post">
+            <button
+              type="submit"
+              onclick="return confirm('Are you sure?');"
+            >
+              <a class="action">
+                Delete
+              </a>
+            </button>
+          </form>
+        </div>
+      </header>
+      <p class="body">{{ joke['body'] }}</p>
+    </article>
+    {% if not loop.last %}
+    <br />
+    {% endif %} 
+  {% endfor %} 
+{% endblock %}

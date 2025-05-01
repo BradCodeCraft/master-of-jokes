@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %} 
+  <div class="page-header-container">
+    <h1 class="page-title">
+      My Jokes
+    </h1>
+    <div class="page-header-action-container">
+      <p class="action">Balance: {{ g.user["balance"] }}</p>
+      {% if g.user["balance"] > 0 %}
+        <a class="action" href={{ url_for("blog.community") }}>Take a Joke</a>
+      {% endif %}
+      <a class="action" href="{{ url_for('blog.create') }}">Leave a Joke</a>
+    </div>
+  </div>
+
+  {% for user_joke in user_jokes %}
+    <article class="joke">
+      <a class="action" href="{{ url_for('blog.update', id=user_joke['id']) }}">
+        <header>
+          <div>
+            <h1>{{ user_joke['title'] }}</h1>
+            <div class="about">
+              by {{ user_joke['nickname'] }} on {{ user_joke['created'].strftime('%Y-%m-%d') }}
+              with a rating of {{ get_joke_rating(user_joke["id"]) }}
+            </div>
+          </div>
+        </header>
+        <p class="body">{{ user_joke['body'] }}</p>
+      </a>
+    </article>
+    {% if not loop.last %}
+    <hr />
+    {% endif %} 
+  {% endfor %} 
+{% endblock %}

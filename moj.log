@@ -1,0 +1,658 @@
+2025-04-21T22:10:39 INFO [__init__]: Starting moj server
+2025-04-21T22:10:39 INFO [__init__]: Log file level set to INFO
+2025-04-21T22:10:39 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-21T22:10:39 INFO [__init__]: Database initialized
+2025-04-21T22:10:39 INFO [__init__]: Auth blueprint registered
+2025-04-21T22:10:39 INFO [__init__]: Blog blueprint registered
+2025-04-21T22:10:39 INFO [__init__]: Moderator blueprint registered
+2025-04-21T22:10:43 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x7a43c8bf0fa0>]
+2025-04-21T22:10:43 INFO [__init__]: / from blog.index, returned 200
+2025-04-21T22:10:43 INFO [__init__]: /static/style.css from static, returned 200
+2025-04-21T22:10:43 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-21T22:10:43 WARNING [__init__]: 404 for /favicon.ico
+2025-04-21T22:10:48 INFO [__init__]: /auth/login from auth.login, returned 200
+2025-04-21T22:10:48 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:10:48 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:10:53 INFO [auth]: Authentication Successful
+2025-04-21T22:10:53 INFO [__init__]: /auth/login from auth.login, returned 302
+2025-04-21T22:10:53 WARNING [__init__]: 302 for /auth/login
+2025-04-21T22:10:53 INFO [__init__]: /create from blog.create, returned 200
+2025-04-21T22:10:53 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:10:53 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:10:53 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-21T22:10:53 WARNING [__init__]: 404 for /favicon.ico
+2025-04-21T22:11:03 INFO [blog]: User 2 jokes: [<sqlite3.Row object at 0x7a43c80199c0>]
+2025-04-21T22:11:03 INFO [__init__]: /personal from blog.personal, returned 200
+2025-04-21T22:11:03 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:11:03 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:11:04 INFO [__init__]: /auth/logout from auth.logout, returned 302
+2025-04-21T22:11:04 WARNING [__init__]: 302 for /auth/logout
+2025-04-21T22:11:04 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x7a43c8019fc0>]
+2025-04-21T22:11:04 INFO [__init__]: / from blog.index, returned 200
+2025-04-21T22:11:04 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:11:04 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:11:04 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-21T22:11:04 WARNING [__init__]: 404 for /favicon.ico
+2025-04-21T22:11:50 INFO [__init__]: Shutting down moj server
+2025-04-21T22:14:29 INFO [__init__]: Starting moj server
+2025-04-21T22:14:29 INFO [__init__]: Log file level set to INFO
+2025-04-21T22:14:29 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-21T22:14:29 INFO [__init__]: Database initialized
+2025-04-21T22:14:29 INFO [__init__]: Auth blueprint registered
+2025-04-21T22:14:29 INFO [__init__]: Blog blueprint registered
+2025-04-21T22:14:29 INFO [__init__]: Moderator blueprint registered
+2025-04-21T22:14:37 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x7778d6f5d6c0>]
+2025-04-21T22:14:37 INFO [__init__]: / from blog.index, returned 200
+2025-04-21T22:14:37 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:14:37 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:14:39 INFO [__init__]: /auth/login from auth.login, returned 200
+2025-04-21T22:14:39 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:14:39 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:14:44 INFO [auth]: Authentication Successful
+2025-04-21T22:14:44 INFO [__init__]: /auth/login from auth.login, returned 302
+2025-04-21T22:14:44 WARNING [__init__]: 302 for /auth/login
+2025-04-21T22:14:44 INFO [__init__]: /moderator from moderator.index, returned 200
+2025-04-21T22:14:44 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:14:44 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:14:44 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-21T22:14:44 WARNING [__init__]: 404 for /favicon.ico
+2025-04-21T22:14:50 INFO [__init__]: /moderator/users from moderator.get_users, returned 200
+2025-04-21T22:14:51 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:14:51 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:14:55 INFO [__init__]: /moderator/2/make-moderator from moderator.make_moderator, returned 302
+2025-04-21T22:14:55 WARNING [__init__]: 302 for /moderator/2/make-moderator
+2025-04-21T22:14:55 INFO [__init__]: /moderator from moderator.index, returned 200
+2025-04-21T22:14:55 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:14:55 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:14:56 INFO [__init__]: /moderator/moderators from moderator.get_moderators, returned 200
+2025-04-21T22:14:56 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:14:56 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:14:59 INFO [__init__]: /moderator/2/remove-moderator from moderator.remove_moderator, returned 302
+2025-04-21T22:14:59 WARNING [__init__]: 302 for /moderator/2/remove-moderator
+2025-04-21T22:14:59 INFO [__init__]: /moderator from moderator.index, returned 200
+2025-04-21T22:14:59 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:14:59 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:15:00 INFO [__init__]: /moderator/jokes from moderator.jokes, returned 200
+2025-04-21T22:15:00 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:15:00 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:15:03 INFO [__init__]: /auth/logout from auth.logout, returned 302
+2025-04-21T22:15:03 WARNING [__init__]: 302 for /auth/logout
+2025-04-21T22:15:03 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x7778d627e950>]
+2025-04-21T22:15:03 INFO [__init__]: / from blog.index, returned 200
+2025-04-21T22:15:03 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:15:03 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:15:03 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-21T22:15:03 WARNING [__init__]: 404 for /favicon.ico
+2025-04-21T22:15:05 INFO [__init__]: /auth/login from auth.login, returned 200
+2025-04-21T22:15:05 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:15:05 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:15:09 INFO [auth]: Authentication Successful
+2025-04-21T22:15:09 INFO [__init__]: /auth/login from auth.login, returned 302
+2025-04-21T22:15:09 WARNING [__init__]: 302 for /auth/login
+2025-04-21T22:15:09 INFO [__init__]: /create from blog.create, returned 200
+2025-04-21T22:15:09 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:15:09 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:15:09 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-21T22:15:09 WARNING [__init__]: 404 for /favicon.ico
+2025-04-21T22:15:34 INFO [blog]: Joke created by user 2: What's the smartest insect?
+2025-04-21T22:15:34 INFO [__init__]: /create from blog.create, returned 302
+2025-04-21T22:15:34 WARNING [__init__]: 302 for /create
+2025-04-21T22:15:34 INFO [blog]: User 2 jokes: [<sqlite3.Row object at 0x7778d6298220>, <sqlite3.Row object at 0x7778d62982e0>]
+2025-04-21T22:15:34 INFO [__init__]: /personal from blog.personal, returned 200
+2025-04-21T22:15:34 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:15:34 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:15:38 INFO [__init__]: /3/update from blog.update, returned 200
+2025-04-21T22:15:39 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-21T22:15:39 WARNING [__init__]: 304 for /static/style.css
+2025-04-21T22:16:22 INFO [__init__]: Shutting down moj server
+2025-04-22T10:02:20 INFO [__init__]: Starting moj server
+2025-04-22T10:02:20 INFO [__init__]: Log file level set to INFO
+2025-04-22T10:02:20 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-22T10:02:20 INFO [__init__]: Database initialized
+2025-04-22T10:02:20 INFO [__init__]: Auth blueprint registered
+2025-04-22T10:02:20 INFO [__init__]: Blog blueprint registered
+2025-04-22T10:02:20 INFO [__init__]: Moderator blueprint registered
+2025-04-22T10:02:23 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x70261f8196f0>, <sqlite3.Row object at 0x70261f819750>]
+2025-04-22T10:02:23 INFO [__init__]: / from blog.index, returned 200
+2025-04-22T10:02:23 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-22T10:02:23 WARNING [__init__]: 304 for /static/style.css
+2025-04-22T10:02:23 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-22T10:02:23 WARNING [__init__]: 404 for /favicon.ico
+2025-04-22T10:02:27 INFO [__init__]: /auth/login from auth.login, returned 200
+2025-04-22T10:02:27 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-22T10:02:27 WARNING [__init__]: 304 for /static/style.css
+2025-04-22T10:02:32 INFO [auth]: Authentication Successful
+2025-04-22T10:02:32 INFO [__init__]: /auth/login from auth.login, returned 302
+2025-04-22T10:02:32 WARNING [__init__]: 302 for /auth/login
+2025-04-22T10:02:32 INFO [__init__]: /create from blog.create, returned 200
+2025-04-22T10:02:32 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-22T10:02:32 WARNING [__init__]: 304 for /static/style.css
+2025-04-22T10:02:32 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-22T10:02:32 WARNING [__init__]: 404 for /favicon.ico
+2025-04-22T10:02:34 INFO [blog]: User 2 jokes: [<sqlite3.Row object at 0x70261ec298a0>, <sqlite3.Row object at 0x70261ec29900>]
+2025-04-22T10:02:34 INFO [__init__]: /personal from blog.personal, returned 200
+2025-04-22T10:02:34 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-22T10:02:34 WARNING [__init__]: 304 for /static/style.css
+2025-04-22T10:02:49 WARNING [auth]: User is not a moderator
+2025-04-22T10:02:49 INFO [__init__]: /moderator from moderator.index, returned 302
+2025-04-22T10:02:49 WARNING [__init__]: 302 for /moderator
+2025-04-22T10:02:49 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x70261ec29a50>, <sqlite3.Row object at 0x70261ec29c60>]
+2025-04-22T10:02:49 INFO [__init__]: / from blog.index, returned 200
+2025-04-22T10:02:49 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-22T10:02:49 WARNING [__init__]: 304 for /static/style.css
+2025-04-22T10:35:45 INFO [__init__]: Starting moj server
+2025-04-22T10:35:45 INFO [__init__]: Log file level set to INFO
+2025-04-22T10:35:45 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-22T10:35:45 INFO [__init__]: Database initialized
+2025-04-22T10:35:45 INFO [__init__]: Auth blueprint registered
+2025-04-22T10:35:45 INFO [__init__]: Blog blueprint registered
+2025-04-22T10:35:45 INFO [__init__]: Moderator blueprint registered
+2025-04-22T10:35:45 INFO [__init__]: Shutting down moj server
+2025-04-22T10:36:15 INFO [__init__]: Starting moj server
+2025-04-22T10:36:15 INFO [__init__]: Log file level set to INFO
+2025-04-22T10:36:15 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-22T10:36:15 INFO [__init__]: Database initialized
+2025-04-22T10:36:15 INFO [__init__]: Auth blueprint registered
+2025-04-22T10:36:15 INFO [__init__]: Blog blueprint registered
+2025-04-22T10:36:15 INFO [__init__]: Moderator blueprint registered
+2025-04-22T10:36:15 INFO [__init__]: Shutting down moj server
+2025-04-22T11:09:26 INFO [__init__]: Shutting down moj server
+2025-04-22T12:04:49 INFO [__init__]: Starting moj server
+2025-04-22T12:04:49 INFO [__init__]: Log file level set to INFO
+2025-04-22T12:04:49 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-22T12:04:49 INFO [__init__]: Database initialized
+2025-04-22T12:04:49 INFO [__init__]: Auth blueprint registered
+2025-04-22T12:04:49 INFO [__init__]: Blog blueprint registered
+2025-04-22T12:04:49 INFO [__init__]: Moderator blueprint registered
+2025-04-22T12:05:18 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x76d828ac9780>, <sqlite3.Row object at 0x76d828ac97e0>]
+2025-04-22T12:05:18 INFO [__init__]: / from blog.index, returned 200
+2025-04-22T12:05:18 INFO [__init__]: /static/style.css from static, returned 200
+2025-04-22T12:05:18 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-22T12:05:18 WARNING [__init__]: 404 for /favicon.ico
+2025-04-22T12:06:48 INFO [__init__]: Shutting down moj server
+2025-04-22T12:07:33 INFO [__init__]: Starting moj server
+2025-04-22T12:07:33 INFO [__init__]: Log file level set to INFO
+2025-04-22T12:07:33 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-22T12:07:33 INFO [__init__]: Database initialized
+2025-04-22T12:07:33 INFO [__init__]: Auth blueprint registered
+2025-04-22T12:07:33 INFO [__init__]: Blog blueprint registered
+2025-04-22T12:07:33 INFO [__init__]: Moderator blueprint registered
+2025-04-22T12:08:14 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x77ef1a57d960>, <sqlite3.Row object at 0x77ef1a57d9c0>]
+2025-04-22T12:08:14 INFO [__init__]: / from blog.index, returned 200
+2025-04-22T12:08:14 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-22T12:08:14 WARNING [__init__]: 304 for /static/style.css
+2025-04-22T12:09:03 INFO [__init__]: Shutting down moj server
+2025-04-22T12:09:04 INFO [__init__]: Starting moj server
+2025-04-22T12:09:04 INFO [__init__]: Log file level set to INFO
+2025-04-22T12:09:04 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-22T12:09:04 INFO [__init__]: Database initialized
+2025-04-22T12:09:04 INFO [__init__]: Auth blueprint registered
+2025-04-22T12:09:04 INFO [__init__]: Blog blueprint registered
+2025-04-22T12:09:04 INFO [__init__]: Moderator blueprint registered
+2025-04-22T12:09:06 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x78af88f5d900>, <sqlite3.Row object at 0x78af88f5d960>]
+2025-04-22T12:09:06 INFO [__init__]: / from blog.index, returned 200
+2025-04-22T12:09:06 INFO [__init__]: /static/style.css from static, returned 200
+2025-04-22T12:09:06 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-22T12:09:06 WARNING [__init__]: 404 for /favicon.ico
+2025-04-22T12:11:29 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x78af8827c940>, <sqlite3.Row object at 0x78af8827c9a0>]
+2025-04-22T12:11:29 INFO [__init__]: / from blog.index, returned 200
+2025-04-22T12:11:29 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-22T12:11:29 WARNING [__init__]: 304 for /static/style.css
+2025-04-22T12:12:10 INFO [__init__]: Shutting down moj server
+2025-04-22T12:12:12 INFO [__init__]: Starting moj server
+2025-04-22T12:12:12 INFO [__init__]: Log file level set to INFO
+2025-04-22T12:12:12 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-22T12:12:12 INFO [__init__]: Database initialized
+2025-04-22T12:12:12 INFO [__init__]: Auth blueprint registered
+2025-04-22T12:12:12 INFO [__init__]: Blog blueprint registered
+2025-04-22T12:12:12 INFO [__init__]: Moderator blueprint registered
+2025-04-22T12:12:22 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x79ad543e5870>, <sqlite3.Row object at 0x79ad543e58d0>]
+2025-04-22T12:12:22 INFO [__init__]: / from blog.index, returned 200
+2025-04-22T12:12:22 INFO [__init__]: /static/style.css from static, returned 200
+2025-04-22T12:12:22 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-22T12:12:22 WARNING [__init__]: 404 for /favicon.ico
+2025-04-22T12:14:49 INFO [__init__]: Shutting down moj server
+2025-04-24T15:13:25 INFO [__init__]: Starting moj server
+2025-04-24T15:13:25 INFO [__init__]: Log file level set to INFO
+2025-04-24T15:13:25 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-24T15:13:25 INFO [__init__]: Database initialized
+2025-04-24T15:13:25 INFO [__init__]: Auth blueprint registered
+2025-04-24T15:13:25 INFO [__init__]: Blog blueprint registered
+2025-04-24T15:13:25 INFO [__init__]: Moderator blueprint registered
+2025-04-24T15:13:28 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x70cd0adbdc30>, <sqlite3.Row object at 0x70cd0adbdc90>]
+2025-04-24T15:13:28 INFO [__init__]: / from blog.index, returned 200
+2025-04-24T15:13:28 INFO [__init__]: /static/style.css from static, returned 200
+2025-04-24T15:13:28 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-24T15:13:28 WARNING [__init__]: 404 for /favicon.ico
+2025-04-24T15:14:31 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x70cd0a0f5270>, <sqlite3.Row object at 0x70cd0a0f52d0>]
+2025-04-24T15:14:31 INFO [__init__]: / from blog.index, returned 200
+2025-04-24T15:14:31 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-24T15:14:31 WARNING [__init__]: 304 for /static/style.css
+2025-04-24T15:18:15 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x70cd0a0f5480>, <sqlite3.Row object at 0x70cd0a0f5630>]
+2025-04-24T15:18:15 INFO [__init__]: / from blog.index, returned 200
+2025-04-24T15:18:15 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-24T15:18:15 WARNING [__init__]: 304 for /static/style.css
+2025-04-24T15:18:17 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x70cd0a0f5900>, <sqlite3.Row object at 0x70cd0a0f5960>]
+2025-04-24T15:18:17 INFO [__init__]: / from blog.index, returned 200
+2025-04-24T15:18:17 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-24T15:18:17 WARNING [__init__]: 304 for /static/style.css
+2025-04-24T15:18:20 INFO [__init__]: Shutting down moj server
+2025-04-24T15:37:31 INFO [__init__]: Starting moj server
+2025-04-24T15:37:31 INFO [__init__]: Log file level set to INFO
+2025-04-24T15:37:31 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-24T15:37:31 INFO [__init__]: Database initialized
+2025-04-24T15:37:31 INFO [__init__]: Auth blueprint registered
+2025-04-24T15:37:31 INFO [__init__]: Blog blueprint registered
+2025-04-24T15:37:31 INFO [__init__]: Moderator blueprint registered
+2025-04-24T15:39:16 INFO [__init__]: Shutting down moj server
+2025-04-25T07:09:23 INFO [__init__]: Starting moj server
+2025-04-25T07:09:23 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:09:23 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:09:23 INFO [__init__]: Database initialized
+2025-04-25T07:09:23 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:09:23 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:09:23 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:23:33 INFO [__init__]: /api/moj/users from None, returned 404
+2025-04-25T07:23:33 WARNING [__init__]: 404 for /api/moj/users
+2025-04-25T07:23:33 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-25T07:23:33 WARNING [__init__]: 404 for /favicon.ico
+2025-04-25T07:23:35 INFO [__init__]: /api/moj/users from None, returned 404
+2025-04-25T07:23:35 WARNING [__init__]: 404 for /api/moj/users
+2025-04-25T07:23:59 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x75d5de640760>, <sqlite3.Row object at 0x75d5de6407c0>]
+2025-04-25T07:23:59 INFO [__init__]: / from blog.index, returned 200
+2025-04-25T07:23:59 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-25T07:23:59 WARNING [__init__]: 304 for /static/style.css
+2025-04-25T07:24:07 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x75d5dc135ba0>, <sqlite3.Row object at 0x75d5dc135c30>]
+2025-04-25T07:24:07 INFO [__init__]: / from blog.index, returned 200
+2025-04-25T07:24:07 INFO [__init__]: /static/style.css from static, returned 200
+2025-04-25T07:24:07 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-25T07:24:07 WARNING [__init__]: 404 for /favicon.ico
+2025-04-25T07:24:13 INFO [__init__]: /api/moj/users from None, returned 404
+2025-04-25T07:24:13 WARNING [__init__]: 404 for /api/moj/users
+2025-04-25T07:24:55 INFO [__init__]: /api/moj/users from None, returned 404
+2025-04-25T07:24:55 WARNING [__init__]: 404 for /api/moj/users
+2025-04-25T07:24:58 INFO [__init__]: Shutting down moj server
+2025-04-25T07:25:00 INFO [__init__]: Starting moj server
+2025-04-25T07:25:00 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:25:00 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'CORS_HEADERS': 'Content-Type', 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:25:00 INFO [__init__]: Database initialized
+2025-04-25T07:25:00 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:25:00 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:25:00 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:25:28 INFO [__init__]: Starting moj server
+2025-04-25T07:25:28 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:25:28 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'CORS_HEADERS': 'Content-Type', 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:25:28 INFO [__init__]: Database initialized
+2025-04-25T07:25:28 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:25:28 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:25:28 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:25:57 INFO [__init__]: Starting moj server
+2025-04-25T07:25:57 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:25:57 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'CORS_HEADERS': 'Content-Type', 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:25:57 INFO [__init__]: Database initialized
+2025-04-25T07:25:57 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:25:57 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:25:57 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:25:57 INFO [__init__]: Status blueprint registered
+2025-04-25T07:25:58 INFO [__init__]: Shutting down moj server
+2025-04-25T07:26:00 INFO [__init__]: Starting moj server
+2025-04-25T07:26:00 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:26:00 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'CORS_HEADERS': 'Content-Type', 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:26:00 INFO [__init__]: Database initialized
+2025-04-25T07:26:00 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:26:00 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:26:00 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:26:00 INFO [__init__]: Status blueprint registered
+2025-04-25T07:26:07 ERROR [__init__]: Unexpected exception (500+):
+Traceback (most recent call last):
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/.venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/.venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/.venv/lib/python3.13/site-packages/flask_cors/decorator.py", line 121, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ~^^^^^^^^^^^^^^^^^
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/moj/status.py", line 35, in users_api
+    return jsonify(users)
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/.venv/lib/python3.13/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/.venv/lib/python3.13/site-packages/flask/json/provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/.venv/lib/python3.13/site-packages/flask/json/provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/usr/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/.venv/lib/python3.13/site-packages/flask/json/provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type Row is not JSON serializable
+2025-04-25T07:26:07 INFO [__init__]: /api/moj/users from status.users_api, returned 500
+2025-04-25T07:26:07 WARNING [__init__]: 500 for /api/moj/users
+2025-04-25T07:26:12 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x71dd0100b610>, <sqlite3.Row object at 0x71dd0100b640>]
+2025-04-25T07:26:12 INFO [__init__]: / from blog.index, returned 200
+2025-04-25T07:26:12 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-25T07:26:12 WARNING [__init__]: 304 for /static/style.css
+2025-04-25T07:27:57 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x71dd00376200>, <sqlite3.Row object at 0x71dd00376260>]
+2025-04-25T07:27:57 INFO [__init__]: / from blog.index, returned 200
+2025-04-25T07:27:57 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-25T07:27:57 WARNING [__init__]: 304 for /static/style.css
+2025-04-25T07:28:04 INFO [__init__]: Shutting down moj server
+2025-04-25T07:28:05 INFO [__init__]: Starting moj server
+2025-04-25T07:28:05 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:28:05 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'CORS_HEADERS': 'Content-Type', 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:28:05 INFO [__init__]: Database initialized
+2025-04-25T07:28:05 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:28:05 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:28:05 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:28:05 INFO [__init__]: Status blueprint registered
+2025-04-25T07:28:08 ERROR [__init__]: Unexpected exception (500+):
+Traceback (most recent call last):
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/.venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/.venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/.venv/lib/python3.13/site-packages/flask_cors/decorator.py", line 121, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/.venv/lib/python3.13/site-packages/flask/helpers.py", line 185, in make_response
+    return current_app.make_response(args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/.venv/lib/python3.13/site-packages/flask/app.py", line 1231, in make_response
+    rv = self.json.response(rv)
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/.venv/lib/python3.13/site-packages/flask/json/provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/.venv/lib/python3.13/site-packages/flask/json/provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/usr/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/home/bradcodecraft/Desktop/repositories/master-of-jokes/.venv/lib/python3.13/site-packages/flask/json/provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type Row is not JSON serializable
+2025-04-25T07:28:08 INFO [__init__]: /api/moj/users from status.users_api, returned 500
+2025-04-25T07:28:08 WARNING [__init__]: 500 for /api/moj/users
+2025-04-25T07:30:19 INFO [__init__]: Shutting down moj server
+2025-04-25T07:31:18 INFO [__init__]: Starting moj server
+2025-04-25T07:31:18 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:31:18 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'CORS_HEADERS': 'Content-Type', 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:31:18 INFO [__init__]: Database initialized
+2025-04-25T07:31:18 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:31:18 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:31:18 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:31:18 INFO [__init__]: Status blueprint registered
+2025-04-25T07:31:21 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:31:48 INFO [__init__]: Shutting down moj server
+2025-04-25T07:31:49 INFO [__init__]: Starting moj server
+2025-04-25T07:31:49 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:31:49 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'CORS_HEADERS': 'Content-Type', 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:31:49 INFO [__init__]: Database initialized
+2025-04-25T07:31:49 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:31:49 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:31:49 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:31:49 INFO [__init__]: Status blueprint registered
+2025-04-25T07:31:50 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:31:50 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-25T07:31:50 WARNING [__init__]: 404 for /favicon.ico
+2025-04-25T07:32:07 INFO [__init__]: Shutting down moj server
+2025-04-25T07:32:08 INFO [__init__]: Starting moj server
+2025-04-25T07:32:08 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:32:08 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'CORS_HEADERS': 'Content-Type', 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:32:08 INFO [__init__]: Database initialized
+2025-04-25T07:32:08 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:32:08 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:32:08 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:32:08 INFO [__init__]: Status blueprint registered
+2025-04-25T07:32:09 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:32:09 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-25T07:32:09 WARNING [__init__]: 404 for /favicon.ico
+2025-04-25T07:34:50 INFO [__init__]: Shutting down moj server
+2025-04-25T07:34:51 INFO [__init__]: Starting moj server
+2025-04-25T07:34:51 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:34:51 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'CORS_HEADERS': 'Content-Type', 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:34:51 INFO [__init__]: Database initialized
+2025-04-25T07:34:51 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:34:51 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:34:51 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:34:51 INFO [__init__]: Status blueprint registered
+2025-04-25T07:39:21 INFO [__init__]: Shutting down moj server
+2025-04-25T07:39:22 INFO [__init__]: Starting moj server
+2025-04-25T07:39:22 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:39:22 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:39:22 INFO [__init__]: Database initialized
+2025-04-25T07:39:22 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:39:22 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:39:22 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:39:22 INFO [__init__]: Status blueprint registered
+2025-04-25T07:39:31 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:39:31 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-25T07:39:31 WARNING [__init__]: 404 for /favicon.ico
+2025-04-25T07:41:41 INFO [__init__]: Shutting down moj server
+2025-04-25T07:41:41 INFO [__init__]: Starting moj server
+2025-04-25T07:41:41 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:41:41 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:41:41 INFO [__init__]: Database initialized
+2025-04-25T07:41:41 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:41:41 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:41:41 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:41:41 INFO [__init__]: Status blueprint registered
+2025-04-25T07:42:14 INFO [__init__]: Shutting down moj server
+2025-04-25T07:42:15 INFO [__init__]: Starting moj server
+2025-04-25T07:42:15 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:42:15 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:42:15 INFO [__init__]: Database initialized
+2025-04-25T07:42:15 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:42:15 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:42:15 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:42:15 INFO [__init__]: Status blueprint registered
+2025-04-25T07:44:04 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:44:04 INFO [__init__]: /favicon.ico from None, returned 404
+2025-04-25T07:44:04 WARNING [__init__]: 404 for /favicon.ico
+2025-04-25T07:44:48 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x7034ec177e80>, <sqlite3.Row object at 0x7034ec177ee0>]
+2025-04-25T07:44:48 INFO [__init__]: / from blog.index, returned 200
+2025-04-25T07:44:48 INFO [__init__]: /static/style.css from static, returned 200
+2025-04-25T07:45:30 INFO [__init__]: Shutting down moj server
+2025-04-25T07:45:30 INFO [__init__]: Starting moj server
+2025-04-25T07:45:30 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:45:30 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:45:30 INFO [__init__]: Database initialized
+2025-04-25T07:45:30 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:45:30 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:45:30 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:45:30 INFO [__init__]: Status blueprint registered
+2025-04-25T07:46:57 INFO [__init__]: Shutting down moj server
+2025-04-25T07:46:58 INFO [__init__]: Starting moj server
+2025-04-25T07:46:58 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:46:58 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:46:58 INFO [__init__]: Database initialized
+2025-04-25T07:46:58 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:46:58 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:46:58 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:46:58 INFO [__init__]: Status blueprint registered
+2025-04-25T07:47:28 INFO [__init__]: Shutting down moj server
+2025-04-25T07:47:28 INFO [__init__]: Starting moj server
+2025-04-25T07:47:28 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:47:28 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:47:28 INFO [__init__]: Database initialized
+2025-04-25T07:47:28 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:47:28 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:47:28 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:47:28 INFO [__init__]: Status blueprint registered
+2025-04-25T07:50:15 INFO [__init__]: Shutting down moj server
+2025-04-25T07:50:18 INFO [__init__]: Starting moj server
+2025-04-25T07:50:18 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:50:18 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:50:18 INFO [__init__]: Database initialized
+2025-04-25T07:50:18 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:50:18 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:50:19 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:50:19 INFO [__init__]: Status blueprint registered
+2025-04-25T07:50:39 INFO [__init__]: Shutting down moj server
+2025-04-25T07:50:40 INFO [__init__]: Starting moj server
+2025-04-25T07:50:40 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:50:40 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:50:40 INFO [__init__]: Database initialized
+2025-04-25T07:50:40 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:50:40 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:50:40 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:50:40 INFO [__init__]: Status blueprint registered
+2025-04-25T07:50:47 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:50:47 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:51:46 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:51:46 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:53:14 INFO [__init__]: Shutting down moj server
+2025-04-25T07:53:15 INFO [__init__]: Starting moj server
+2025-04-25T07:53:15 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:53:15 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:53:15 INFO [__init__]: Database initialized
+2025-04-25T07:53:15 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:53:15 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:53:15 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:53:15 INFO [__init__]: Status blueprint registered
+2025-04-25T07:53:18 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:53:18 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:55:37 INFO [__init__]: Shutting down moj server
+2025-04-25T07:55:37 INFO [__init__]: Starting moj server
+2025-04-25T07:55:37 INFO [__init__]: Log file level set to INFO
+2025-04-25T07:55:37 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-25T07:55:37 INFO [__init__]: Database initialized
+2025-04-25T07:55:37 INFO [__init__]: Auth blueprint registered
+2025-04-25T07:55:37 INFO [__init__]: Blog blueprint registered
+2025-04-25T07:55:37 INFO [__init__]: Moderator blueprint registered
+2025-04-25T07:55:37 INFO [__init__]: Status blueprint registered
+2025-04-25T07:55:42 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:55:42 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:56:52 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:56:52 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:58:29 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:58:29 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:58:51 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T07:58:51 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:00:46 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x7a6aec404070>, <sqlite3.Row object at 0x7a6aec4040d0>]
+2025-04-25T08:00:46 INFO [__init__]: / from blog.index, returned 200
+2025-04-25T08:00:46 INFO [__init__]: /static/style.css from static, returned 304
+2025-04-25T08:00:46 WARNING [__init__]: 304 for /static/style.css
+2025-04-25T08:00:49 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:00:49 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:01:27 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:01:27 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:01:31 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:01:31 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:02:59 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:02:59 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:07:23 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:07:23 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:08:22 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:08:22 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:08:51 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:08:51 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:09:52 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:09:52 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:10:06 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-25T08:10:06 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:54:21 INFO [__init__]: Starting moj server
+2025-04-29T09:54:21 INFO [__init__]: Log file level set to INFO
+2025-04-29T09:54:21 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-29T09:54:21 INFO [__init__]: Database initialized
+2025-04-29T09:54:21 INFO [__init__]: Auth blueprint registered
+2025-04-29T09:54:21 INFO [__init__]: Blog blueprint registered
+2025-04-29T09:54:21 INFO [__init__]: Moderator blueprint registered
+2025-04-29T09:54:21 INFO [__init__]: Status blueprint registered
+2025-04-29T09:55:10 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:55:10 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:55:38 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:55:38 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:55:57 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:55:57 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:55:58 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:55:58 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:58:11 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:58:11 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:58:27 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:58:27 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:58:36 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:58:36 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:58:41 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:58:41 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:58:51 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:58:51 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:59:17 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:59:17 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:59:22 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:59:22 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:59:30 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T09:59:30 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:00:16 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:00:16 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:00:41 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:00:41 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:01:08 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:01:08 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:01:56 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:01:56 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:02:10 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:02:10 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:02:16 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:02:16 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:02:32 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:02:32 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:04:08 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:04:08 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:04:08 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:04:08 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:04:09 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:04:09 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:04:09 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:04:09 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:07:34 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:07:34 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:07:34 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:07:34 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:10:19 INFO [__init__]: Shutting down moj server
+2025-04-29T10:10:20 INFO [__init__]: Starting moj server
+2025-04-29T10:10:20 INFO [__init__]: Log file level set to INFO
+2025-04-29T10:10:20 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-04-29T10:10:20 INFO [__init__]: Database initialized
+2025-04-29T10:10:20 INFO [__init__]: Auth blueprint registered
+2025-04-29T10:10:20 INFO [__init__]: Blog blueprint registered
+2025-04-29T10:10:20 INFO [__init__]: Moderator blueprint registered
+2025-04-29T10:10:20 INFO [__init__]: Status blueprint registered
+2025-04-29T10:10:59 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:10:59 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:11:16 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:11:16 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:11:16 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:11:16 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:11:24 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:11:24 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:11:24 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:11:24 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:11:34 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:11:34 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:11:34 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:11:34 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:12:19 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:12:19 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:12:19 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:12:19 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:12:25 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:12:25 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:12:25 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:12:25 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-04-29T10:12:26 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:12:26 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:12:26 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-04-29T10:12:26 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200

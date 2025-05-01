@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %} 
+  <h1 class="page-title">Welcome to Master of Jokes</h1>
+
+  <p class="page-description">
+    The basic idea for Master of Jokes is "Have a penny, leave a penny. 
+    Need a penny, take a penny." but with jokes.
+    <strong>However, you only get out what you put in, you have to leave a joke to get one.</strong>
+  </p>
+
+  <hr class="section-divider"/>
+
+  <h1 class="page-title">Community Jokes</h1>
+
+  {% for community_joke in community_jokes %}
+    <article class="joke">
+      <header>
+        <div>
+          <h1>{{ community_joke['title'] }}</h1>
+          <div class="about">
+            by {{ community_joke['nickname'] }} on {{ community_joke['created'].strftime('%Y-%m-%d') }}
+            with a rating of {{ get_joke_rating(community_joke["id"]) }}
+          </div>
+        </div>
+      </header>
+      <p class="body">{{ community_joke['body'] }}</p>
+    </article>
+    {% if not loop.last %}
+    <hr />
+    {% endif %} 
+  {% endfor %} 
+
+{% endblock %}

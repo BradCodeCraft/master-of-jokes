@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <form method="post">
+    <label for="title">Title</label>
+    <input
+      name="title"
+      id="title"
+      value="{{ joke['title'] }}"
+      disabled
+    />
+    <label for="body">Body</label>
+    <textarea name="body" id="body" rows="4" disabled>{{ request.form['body'] or joke['body'] }}</textarea>
+    <label for="rating">Rating</label>
+    <input 
+      name="rating"
+      id="rating"
+      type="number"
+      min="0"
+      max="5"
+    />
+    <input class="form-button" type="submit" value="Rate" />
+  </form>
+{% endblock %}
