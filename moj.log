@@ -656,3 +656,59 @@ TypeError: Object of type Row is not JSON serializable
 2025-04-29T10:12:26 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
 2025-04-29T10:12:26 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
 2025-04-29T10:12:26 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-05-01T14:45:55 INFO [__init__]: Starting moj server
+2025-05-01T14:45:55 INFO [__init__]: Log file level set to INFO
+2025-05-01T14:45:55 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-05-01T14:45:55 INFO [__init__]: Database initialized
+2025-05-01T14:45:55 INFO [__init__]: Auth blueprint registered
+2025-05-01T14:45:55 INFO [__init__]: Blog blueprint registered
+2025-05-01T14:45:55 INFO [__init__]: Moderator blueprint registered
+2025-05-01T14:45:55 INFO [__init__]: Status blueprint registered
+2025-05-01T14:45:55 INFO [__init__]: Shutting down moj server
+2025-05-01T14:46:55 INFO [__init__]: Starting moj server
+2025-05-01T14:46:55 INFO [__init__]: Log file level set to INFO
+2025-05-01T14:46:55 INFO [__init__]: Config loaded: <Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'SECRET_KEY': 'dev', 'SECRET_KEY_FALLBACKS': None, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(days=31), 'USE_X_SENDFILE': False, 'TRUSTED_HOSTS': None, 'SERVER_NAME': None, 'APPLICATION_ROOT': '/', 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_COOKIE_PARTITIONED': False, 'SESSION_COOKIE_SAMESITE': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'MAX_FORM_MEMORY_SIZE': 500000, 'MAX_FORM_PARTS': 1000, 'SEND_FILE_MAX_AGE_DEFAULT': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'TEMPLATES_AUTO_RELOAD': None, 'MAX_COOKIE_SIZE': 4093, 'PROVIDE_AUTOMATIC_OPTIONS': True, 'DATABASE': '/home/bradcodecraft/Desktop/repositories/master-of-jokes/instance/moj.sqlite'}>
+2025-05-01T14:46:55 INFO [__init__]: Database initialized
+2025-05-01T14:46:55 INFO [__init__]: Auth blueprint registered
+2025-05-01T14:46:55 INFO [__init__]: Blog blueprint registered
+2025-05-01T14:46:55 INFO [__init__]: Moderator blueprint registered
+2025-05-01T14:46:55 INFO [__init__]: Status blueprint registered
+2025-05-01T14:47:05 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-05-01T14:47:05 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-05-01T14:47:05 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-05-01T14:47:05 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-05-01T14:47:07 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-05-01T14:47:07 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-05-01T14:47:07 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-05-01T14:47:07 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-05-01T14:47:08 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-05-01T14:47:08 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-05-01T14:47:08 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-05-01T14:47:08 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-05-01T14:47:08 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-05-01T14:47:08 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-05-01T14:47:08 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-05-01T14:47:08 INFO [__init__]: /api/moj/jokes from status.jokes_api, returned 200
+2025-05-01T14:47:10 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-05-01T14:47:10 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-05-01T14:47:10 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-05-01T14:47:10 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-05-01T14:47:14 INFO [blog]: Community jokes: [<sqlite3.Row object at 0x784f081f5c60>, <sqlite3.Row object at 0x784f081f5ae0>]
+2025-05-01T14:47:15 INFO [__init__]: / from blog.index, returned 200
+2025-05-01T14:47:15 INFO [__init__]: /static/style.css from static, returned 200
+2025-05-01T14:47:15 INFO [__init__]: /favicon.ico from None, returned 404
+2025-05-01T14:47:15 WARNING [__init__]: 404 for /favicon.ico
+2025-05-01T14:47:16 INFO [__init__]: /auth/register from auth.register, returned 200
+2025-05-01T14:47:16 INFO [__init__]: /static/style.css from static, returned 200
+2025-05-01T14:47:16 INFO [__init__]: /favicon.ico from None, returned 404
+2025-05-01T14:47:16 WARNING [__init__]: 404 for /favicon.ico
+2025-05-01T14:47:24 INFO [__init__]: /auth/register from auth.register, returned 302
+2025-05-01T14:47:24 WARNING [__init__]: 302 for /auth/register
+2025-05-01T14:47:24 INFO [__init__]: /auth/login from auth.login, returned 200
+2025-05-01T14:47:24 INFO [__init__]: /static/style.css from static, returned 304
+2025-05-01T14:47:24 WARNING [__init__]: 304 for /static/style.css
+2025-05-01T14:47:26 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-05-01T14:47:26 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-05-01T14:47:26 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-05-01T14:47:26 INFO [__init__]: /api/moj/users from status.users_api, returned 200
+2025-05-01T14:47:31 INFO [__init__]: Shutting down moj server
